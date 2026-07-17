@@ -1,0 +1,43 @@
+.link {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    gap: 5px;
+    background-color: rgb(245, 141, 52);
+    border: 2px solid rgb(200, 87, 0);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.link:hover {
+    background-color: rgb(200, 87, 0);
+    color: white;
+}
+
+.linkIcon {
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: #8a4304;
+    font-weight: bold;
+}
+
+.icon-style {
+    font-size: "1.5rem";
+    cursor: "pointer";
+    color: "#ffffff";
+    font-weight: "bold";
+}
+
+/* Here decrease padding of link class for large screen */
+@media screen and (min-width: 1024px) {
+    .link {
+        padding: 5px;
+    }
+    
+}

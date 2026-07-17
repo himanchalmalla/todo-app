@@ -3,14 +3,13 @@ import Marquee from 'react-fast-marquee';
 import PracticeReact from './practice/PracticeReact';
 import NavBar from "./practice/NavBar";
 import Core from "./practice/core";
-
+import AppRoutes from "./routes/AppRoutes";
 
 function App() {
   return (
-   <>
-    <h1>TODO APP</h1>
-    <Core />
-   </>
+    <>
+    <AppRoutes />
+    </>
   )
 }
 
